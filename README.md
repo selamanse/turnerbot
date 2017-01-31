@@ -1,6 +1,6 @@
 # turnerbot
 
-[![Build Status](https://travis-ci.org/selamanse/amazon-echo-ha-bridge.svg?branch=master)](https://travis-ci.org/selamanse/amazon-echo-ha-bridge)
+[![Build Status](https://travis-ci.org/selamanse/turnerbot.svg?branch=master)](https://travis-ci.org/selamanse/turnerbot)
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg "Standard - JavaScript Style Guide")](http://standardjs.com)
 
