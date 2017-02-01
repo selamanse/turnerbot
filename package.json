@@ -23,7 +23,7 @@
   },
   "dependencies" : {
     "telegraf"         : "~3.6.5",
-    "promise"          : "~7.1.1",
+    "promise"          : "~7.1.1"
   },
   "devDependencies": {
     "grunt": "~1.0.1",
