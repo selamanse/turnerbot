@@ -1,6 +1,6 @@
 {
   "name": "turnerbot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TurnerBot for Telegram",
   "main": "server.js",
   "scripts": {
