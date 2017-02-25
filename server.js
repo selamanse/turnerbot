@@ -20,15 +20,14 @@ const turnerMiddleware = (ctx, next) => {
   console.log("RECIEVED TURNER INPUT: '" + ctx.turnerInput + "'")
 
   Turner.validate(ctx.turnerInput)
-  .then(function (res) {
-    if (res === true) {
-      ctx.reply('Aye! that be right @' + ctx.from.username + '! <b>' + ctx.turnerInput + '</b> is valid', {parse_mode: 'Html'})
-    } else {
-      ctx.reply('Walk th\' plank ye scallywag @' + ctx.from.username + '! <b>' + ctx.turnerInput + '</b> is not valid', {parse_mode: 'Html'})
-    }
-  }).catch(function (rej) {
-    ctx.reply('Arr! some error happened.')
-  })
+    .then(function (res) {
+      if (res === true) {
+        ctx.reply('Aye! that be right @' + ctx.from.username + '! <b>' + ctx.turnerInput + '</b> is valid', {parse_mode: 'Html'})
+      } else {
+        ctx.reply("Walk th' plank ye scallywag @" + ctx.from.username + '! <b>' + ctx.turnerInput + '</b> is not valid', {parse_mode: 'Html'})
+      }
+    })
+    .catch(function (rej) { ctx.reply('Arr! some error happened.') })
 }
 
 // Turn RegEx
